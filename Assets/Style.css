@@ -1,0 +1,97 @@
+
+html {
+    background-color:lavenderblush;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    font-size: 50px;
+    font-weight: lighter;
+    margin:0%;
+}
+ul li{
+    display: inline;
+    list-style: none;
+    margin: 40px 0 0 40px
+}
+article, .column
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+}
+.about-me {
+    font-size: 25px;
+}
+a {
+    font-size: 25px;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+}
+.fun_fact {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-image: url(./images/background-image.jpeg);
+    height: 200px;
+}
+
+p {
+    font-size: 20px;
+    color:rgb(67, 97, 96);
+    line-height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.backround-image {
+    position: relative;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+}
+.card-1 {
+    display: block;
+    width: 100%;
+    max-width: auto;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    display: block;
+    width: 50;
+    /* flex-grow: 1; */
+  }
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 lightgray;
+}
+
+/* Add some padding inside the card container */
+.container {
+    display: flex;
+}
+
+ img {
+    border: 2px dashed yellow;
+    min-height: 100px;
+    max-height: 120px;
+}
+/* .column {
+    flex: 1 0 50%;
+
+} */
+img, embed, object, iframe {
+    vertical-align: bottom;

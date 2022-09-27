@@ -8,6 +8,6 @@ this is my [portfolio](file:///Users/mckennalawson/Desktop/challenge-02/index.ht
 
 ## Screen Shots
 
-[1] <img width="1440" alt="Screen Shot 2022-09-26 at 10 19 28 PM-1" src="https://user-images.githubusercontent.com/102085405/192424551-5b452971-6c6b-4a02-bc45-a6ebb505f574.png"
+[1] <img width="1440" alt="Screen Shot 2022-09-26 at 10 19 28 PM-1" src="https://user-images.githubusercontent.com/102085405/192424551-5b452971-6c6b-4a02-bc45-a6ebb505f574.png">
 [2]<img width="1439" alt="Screen Shot 2022-09-26 at 10 19 57 PM" src="https://user-images.githubusercontent.com/102085405/192424605-9cdf6b1f-e2c4-45d8-9508-448c6e79bd0f.png">
 [3]<img width="1439" alt="Screen Shot 2022-09-26 at 10 20 39 PM" src="https://user-images.githubusercontent.com/102085405/192424618-f071ca03-8307-4544-9c30-ca4ecc9be4a9.png">

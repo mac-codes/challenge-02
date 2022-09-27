@@ -7,28 +7,39 @@ h1{
     font-size: 50px;
     font-weight: lighter;
     margin:0%;
+    
 }
 ul li{
     display: inline;
     list-style: none;
-    margin: 40px 0 0 40px
+    margin: 40px 0 0 40px;
+    
 }
 article, .column
 {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-
+    
 }
 .about-me {
     font-size: 25px;
 }
 a {
     font-size: 25px;
+    text-decoration: none;
+    text-decoration-color: black;
 }
 .flex {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+.flex-header,
+.flex-footer {
+    display: flex;
+    justify-content: space-between; 
     align-items: baseline;
 
 }
@@ -38,14 +49,14 @@ a {
     align-items: flex-end;
     background-image: url(./images/background-image.jpeg);
     height: 200px;
+    font-family:'Courier New', Courier, monospace;
 }
 
 p {
     font-size: 20px;
     color:rgb(67, 97, 96);
     line-height: 40px;
-    display: flex;
-    flex-wrap: wrap;
+    
 }
 
 .backround-image {
@@ -70,7 +81,7 @@ p {
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     display: block;
-    width: 50;
+    width: 300px;
     /* flex-grow: 1; */
   }
 
@@ -82,16 +93,27 @@ p {
 /* Add some padding inside the card container */
 .container {
     display: flex;
+    width: 300px;
 }
 
  img {
-    border: 2px dashed yellow;
-    min-height: 100px;
+    min-height: 300px;
     max-height: 120px;
 }
-/* .column {
+ .column {
     flex: 1 0 50%;
-
-} */
+    width: 50%;
+} 
+.column-1 {
+    width: 80vw;
+}
 img, embed, object, iframe {
     vertical-align: bottom;
+}
+#coming-soon {
+    max-width: 700px;
+    min-width: auto;
+}
+.flex-header #selfie {
+    border-radius: 50%;
+}

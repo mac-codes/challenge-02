@@ -9,9 +9,12 @@ h1{
     margin:0%;
     
 }
+header ul {
+    list-style: none;
+}
 ul li{
     display: inline;
-    list-style: none;
+    list-style-type: none;
     margin: 40px 0 0 40px;
     
 }
@@ -28,7 +31,7 @@ article, .column
 a {
     font-size: 25px;
     text-decoration: none;
-    text-decoration-color: black;
+    color: black;
 }
 .flex {
     display: flex;
@@ -114,6 +117,6 @@ img, embed, object, iframe {
     max-width: 700px;
     min-width: auto;
 }
-.flex-header #selfie {
+.flex-header, #selfie {
     border-radius: 50%;
 }

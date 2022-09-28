@@ -4,7 +4,7 @@ for this challenge I was prompted to make a portfolio page! it was really fun wr
 
 ## Link
 
-this is my [portfolio](file:///Users/mckennalawson/Desktop/challenge-02/index.html)
+this is my [portfolio](https://mac-codes.github.io/challenge-02/)
 
 ## Screen Shots
 
